@@ -27,8 +27,17 @@ conda create -n Abs -c bioconda -c anaconda -c conda-forge \
   mafft 
 ```
 
-## Baseline VDJ setup
+## Calculate the frequency of different IGHV2-5 alleles
 
-1. Download antibody repertoire data for healthy donors from [cAb-Rep](https://www.frontiersin.org/articles/10.3389/fimmu.2019.02365/full)
+1. Download antibody repertoire data for healthy donors from [cAb-Rep](https://www.frontiersin.org/articles/10.3389/fimmu.2019.02365/full).
 
-2. [Cal_repertoire_freq.py](./code/Cal_repertoire_freq.py) is used to establish the baseline germline usage frequency
+2. Calculate the frequency of different IGHV2-5 alleles in healthy donors
+``python3 code/Cal_repertoire_freq.py``
+
+## Plotting
+
+1. Plot neutralization data collected from literature
+``Rscript code/neut_heatmap.R``
+
+2. Plot IGHV2-5 allele frequency
+``Rscript code/plot_allele.R``
