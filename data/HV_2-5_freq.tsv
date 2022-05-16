@@ -1,0 +1,9 @@
+allele	class	freq
+IGHV2-5*01	RBD Abs	0
+IGHV2-5*02	RBD Abs	0.7272727
+others	RBD Abs	0
+ambiguous	RBD Abs	0.2727273
+IGHV2-5*01	repertoire	0.328502511
+IGHV2-5*02	repertoire	0.644500398
+others	repertoire	0.033725477
+ambiguous	repertoire	0
