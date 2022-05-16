@@ -28,7 +28,7 @@ conda create -n Abs -c bioconda -c anaconda -c conda-forge \
 
 ### Calculate the frequency of different IGHV2-5 alleles
 
-1. Download antibody repertoire data for healthy donors from [cAb-Rep](https://www.frontiersin.org/articles/10.3389/fimmu.2019.02365/full).
+1. Download antibody repertoire data for healthy donors from [cAb-Rep](https://www.frontiersin.org/articles/10.3389/fimmu.2019.02365/full)
 
 2. Calculate the frequency of different IGHV2-5 alleles in healthy donors   
 ``python3 code/Cal_repertoire_freq.py``
