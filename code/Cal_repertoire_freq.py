@@ -39,5 +39,4 @@ def cal_repertoire_freq(input,outfile,donor_dict,gene):
 
 cal_repertoire_freq('data/Abs_info/Nature_Briney_name.txt','data/Briney_HV_Repertoire_freq.xlsx',donor_dic,'V_gene')
 cal_repertoire_freq('data/Abs_info/Cinque_heavy_name.txt','data/Cinque_HV_Repertoire_freq.xlsx',donor_dic,'V_gene')
-cal_repertoire_freq('data/Abs_info/cAb-Rep_heavy_final_name.txt','data/cAb_HV_Repertoire_freq.xlsx',donor_dic,'V_gene')
 
