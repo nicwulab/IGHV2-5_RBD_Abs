@@ -1,4 +1,4 @@
-# IGHV2-5
+# Analysis of SARS-CoV-2 RBD antibodies encoded by IGHV2-5/IGLV2-14
 
 ## Dependencies ##
 * [python3](https://www.python.org/downloads/)
