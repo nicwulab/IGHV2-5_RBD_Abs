@@ -1,6 +1,6 @@
-# Analysis of SARS-CoV-2 RBD antibodies encoded by IGHV2-5/IGLV2-14
+## Analysis of SARS-CoV-2 RBD antibodies encoded by IGHV2-5/IGLV2-14
 
-## Dependencies ##
+### Dependencies
 * [python3](https://www.python.org/downloads/)
 * [Igblast](https://github.com/ncbi/igblast)
 * [PyIR](https://github.com/crowelab/PyIR)
@@ -9,7 +9,7 @@
 * [Openpyxl](https://openpyxl.readthedocs.io/en/stable/)
 * [R](https://www.r-project.org/)
 
-## Dependencies Installation ##
+### Dependencies Installation
 Install dependencies by conda:
 
 ```
@@ -21,14 +21,14 @@ conda create -n Abs -c bioconda -c anaconda -c conda-forge \
   igblast
 ```
 
-## Calculate the frequency of different IGHV2-5 alleles
+### Calculate the frequency of different IGHV2-5 alleles
 
 1. Download antibody repertoire data for healthy donors from [cAb-Rep](https://www.frontiersin.org/articles/10.3389/fimmu.2019.02365/full).
 
 2. Calculate the frequency of different IGHV2-5 alleles in healthy donors   
 ``python3 code/Cal_repertoire_freq.py``
 
-## Plotting
+### Plotting
 
 1. Plot neutralization data collected from literature   
 ``Rscript code/neut_heatmap.R``
