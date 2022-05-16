@@ -23,7 +23,7 @@ conda create -n Abs -c bioconda -c anaconda -c conda-forge \
 
 ### Input files
 * [./data/neut.tsv](./data/neut.tsv): pseudovirus neutralization data (IC50) from literature
-* [./data/cAb_donor_info](./data/cAb_donor_info): meta-information about antibody repertoire data for healthy donors
+* [./data/cAb_donor_info.xlsx](./data/cAb_donor_info.xlsx): meta-information about antibody repertoire data for healthy donors
 * [./data/HV_2-5_freq.tsv](./data/HV_2-5_freq.tsv): summary ofIGHV2-5 allele frequency in RBD antibodies and in antibody repertoire data 
 
 ### Calculate the frequency of different IGHV2-5 alleles
