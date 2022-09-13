@@ -40,3 +40,7 @@ conda create -n Abs -c bioconda -c anaconda -c conda-forge \
 
 2. Plot IGHV2-5 allele frequency in IGHV2-5/IGLV2-14-encoded RBD antibodies and in antibody repertoire data
 ``Rscript code/plot_allele.R``
+
+### ddG calculation
+
+See README file in ``rosetta_simulation``
