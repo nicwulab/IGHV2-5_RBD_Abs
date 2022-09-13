@@ -1,0 +1,7 @@
+NATAA
+EX 1 EX 2
+USE_INPUT_SC
+start
+
+# Mutate residue 55 (D, corresponds to D54N following original antibody numbering) in chain A (heavy chain of antibody) to N.
+55 A PIKAA N
